@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+
+<style>
+  .box1 {
+    height: 10%;
+    width: 100%;
+    padding: 10px;
+  }
+  .box2 {
+    height: 20%;
+    padding: 5px;
+    width: 100%;
+  }
+  .black {
+    background-color: black;
+  }
+  .white {
+    background-color: white;
+  }
+  .footer {
+    position: relative;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+</style>
+ </head>
+ <body style="background-color: white;">
+  <div class="box1 black">
+    <center>
+      <h2 style="color: white;">welcome to my web page</h2>
+      <pre><a href="#home">Home</a>  <a href="#contact">contact</a>  <a href="services">services</a></pre>
+    </center>
+</div><br>
+   
+  <div class="box2 white">
+    <h2 style="color: black;">About this page</h2>
+    <p style="color: black;">this is a sample web page</p>
+    <a href="sample.com">sample link</a>
+  </div><br>
+  <div class="box1 black footer">
+    <p style="color: beige;text-align: center;">2024 web page</p>
+  </div>
+
+ </body>
+
+</html>
+
+    
+
+
+
+
+ 
+  
